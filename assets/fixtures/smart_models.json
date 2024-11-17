@@ -1,0 +1,184 @@
+[
+    {
+        "id": "51550ab6-a1a8-4ade-9679-0026ef1e898a",
+        "name": "Bedroom Light",
+        "type": "device",
+        "properties": [
+            {
+                "id": "51550ab6-daa7-4cfe-920e-30e01b1b0f81",
+                "modelId": "51550ab6-a1a8-4ade-9679-0026ef1e898a",
+                "name": "power",
+                "description": "Power state of the light",
+                "value": "false",
+                "supportedConditions": [
+                    "equals",
+                    "notEquals"
+                ]
+            },
+            {
+                "id": "51550ab6-daa7-4cfe-920e-30e01b1b0f82",
+                "modelId": "51550ab6-a1a8-4ade-9679-0026ef1e898a",
+                "name": "brightness",
+                "description": "Brightness of the light",
+                "value": "95",
+                "supportedConditions": [
+                    "equals",
+                    "notEquals",
+                    "above",
+                    "below"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "f1b3b3b4-1b1b-4b1b-8b1b-1b1b1b1b1b1b",
+        "name": "Living Room Light",
+        "type": "device",
+        "properties": [
+            {
+                "id": "f1b3b3b4-daa7-4cfe-920e-30e01b1b0f81",
+                "modelId": "f1b3b3b4-1b1b-4b1b-8b1b-1b1b1b1b1b1b",
+                "name": "power",
+                "description": "Power state of the light",
+                "value": "false",
+                "supportedConditions": [
+                    "equals",
+                    "notEquals"
+                ]
+            },
+            {
+                "id": "f1b3b3b4-daa7-4cfe-920e-30e01b1b0f82",
+                "modelId": "f1b3b3b4-1b1b-4b1b-8b1b-1b1b1b1b1b1b",
+                "name": "brightness",
+                "description": "Brightness of the light",
+                "value": "95",
+                "supportedConditions": [
+                    "equals",
+                    "notEquals",
+                    "above",
+                    "below"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "f1b3b3b4-1b1b-4b1b-8b1b-1c1c1c1c1c1c",
+        "name": "Main AC",
+        "type": "device",
+        "properties": [
+            {
+                "id": "f1b3b3b4-daa7-4cfe-920d-30e01b1b0f81",
+                "modelId": "f1b3b3b4-1b1b-4b1b-8b1b-1c1c1c1c1c1c",
+                "name": "power",
+                "description": "Power state of the AC",
+                "value": "false",
+                "supportedConditions": [
+                    "equals",
+                    "notEquals"
+                ]
+            },
+            {
+                "id": "f1b3b3b4-daa7-4cfe-920d-30e01b1b0f82",
+                "modelId": "f1b3b3b4-1b1b-4b1b-8b1b-1c1c1c1c1c1c",
+                "name": "temperature",
+                "description": "Temperature of the AC",
+                "value": "25",
+                "supportedConditions": [
+                    "equals",
+                    "notEquals",
+                    "above",
+                    "below"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "f1b3b3b4-1b1b-4b1b-8b1b-1d1d1d1d1d1d",
+        "name": "Bedroom Curtains",
+        "type": "device",
+        "properties": [
+            {
+                "id": "f1b3b3b4-daa7-4cfe-920f-30e01b1b0f82",
+                "modelId": "f1b3b3b4-1b1b-4b1b-8b1b-1d1d1d1d1d1d",
+                "name": "position",
+                "description": "Position of the curtains",
+                "value": "0",
+                "supportedConditions": [
+                    "equals",
+                    "notEquals",
+                    "above",
+                    "below"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "f1b3b3b4-1b1b-4b1b-8b1b-1e1e1e1e1e1e",
+        "name": "Coffee Machine",
+        "type": "device",
+        "properties": [
+            {
+                "id": "f1b3b3b4-daa7-4cfe-8b1b-30e01b1b0f81",
+                "modelId": "f1b3b3b4-1b1b-4b1b-8b1b-1e1e1e1e1e1e",
+                "name": "power",
+                "description": "Power state of the coffee machine",
+                "value": "false",
+                "supportedConditions": [
+                    "equals",
+                    "notEquals"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "f1b3b3b4-1b1b-4b1b-8b1c-1f1f1f1f1f1f",
+        "name": "Weather Service",
+        "type": "service",
+        "properties": [
+            {
+                "id": "f1b3b3b4-daa7-4cfe-8b1c-30e01b1b0f81",
+                "modelId": "f1b3b3b4-1b1b-4b1b-8b1c-1f1f1f1f1f1f",
+                "name": "temperature",
+                "description": "Temperature of the weather",
+                "value": "25",
+                "supportedConditions": [
+                    "equals",
+                    "notEquals",
+                    "above",
+                    "below"
+                ]
+            },
+            {
+                "id": "f1b3b3b4-daa7-4cfe-920e-30e01b1b0f82",
+                "modelId": "f1b3b3b4-1b1b-4b1b-8b1c-1f1f1f1f1f1f",
+                "name": "humidity",
+                "description": "Humidity of the weather",
+                "value": "50",
+                "supportedConditions": [
+                    "equals",
+                    "notEquals",
+                    "above",
+                    "below"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "f1b3b3b4-1b1b-4b1b-8b1h-1g1g1g1g1g1g",
+        "name": "Morning Alarm",
+        "type": "service",
+        "properties": [
+            {
+                "id": "f1b3b3b4-daa7-4cfe-8b1h-30e01b1b0f81",
+                "modelId": "f1b3b3b4-1b1b-4b1b-8b1h-1g1g1g1g1g1g",
+                "name": "alarm",
+                "description": "Alarm state",
+                "value": "false",
+                "supportedConditions": [
+                    "equals",
+                    "notEquals"
+                ]
+            }
+        ]
+    }
+]

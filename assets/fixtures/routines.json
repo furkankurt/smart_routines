@@ -1,0 +1,51 @@
+[
+    {
+        "id": "d2mkjd23-a1a8-4ade-9679-23r230f932",
+        "name": "Wake Up",
+        "trigger": {
+            "modelId": "f1b3b3b4-1b1b-4b1b-8b1h-1g1g1g1g1g1g",
+            "propertyName": "alarm",
+            "condition": "equals",
+            "value": "true"
+        },
+        "actions": [
+            {
+                "modelId": "51550ab6-a1a8-4ade-9679-0026ef1e898a",
+                "propertyName": "power",
+                "value": "true"
+            },
+            {
+                "modelId": "51550ab6-a1a8-4ade-9679-0026ef1e898a",
+                "propertyName": "brightness",
+                "value": "100"
+            },
+            {
+                "modelId": "f1b3b3b4-1b1b-4b1b-8b1b-1d1d1d1d1d1d",
+                "propertyName": "position",
+                "value": "100"
+            }
+        ]
+    },
+    {
+        "id": "d2mkjd23-a1a8-4ade-9679-23r230f933",
+        "name": "Low Temperture",
+        "trigger": {
+            "modelId": "f1b3b3b4-1b1b-4b1b-8b1c-1f1f1f1f1f1f",
+            "propertyName": "temperature",
+            "condition": "below",
+            "value": "20"
+        },
+        "actions": [
+            {
+                "modelId": "f1b3b3b4-1b1b-4b1b-8b1b-1c1c1c1c1c1c",
+                "propertyName": "power",
+                "value": "true"
+            },
+            {
+                "modelId": "f1b3b3b4-1b1b-4b1b-8b1b-1c1c1c1c1c1c",
+                "propertyName": "temperature",
+                "value": "26"
+            }
+        ]
+    }
+]

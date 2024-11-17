@@ -1,0 +1,19 @@
+include: package:very_good_analysis/analysis_options.6.0.0.yaml
+
+analyzer:
+  errors:
+    one_member_abstracts: ignore
+    invalid_annotation_target: ignore
+    inference_failure_on_function_invocation: ignore
+    cascade_invocations: ignore
+    avoid_positional_boolean_parameters: ignore
+    avoid_dynamic_calls: ignore
+    inference_failure_on_instance_creation: ignore
+  exclude: [build/**, lib/**.g.dart]
+
+linter:
+  rules:
+    public_member_api_docs: false
+    library_private_types_in_public_api: false
+    one_member_abstracts: false
+    use_setters_to_change_properties: false

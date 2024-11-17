@@ -1,0 +1,48 @@
+name: smart_routines
+description: A Flutter application to manage your IoT devices with custom routines
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  auto_route: ^9.2.2
+  bloc: ^8.1.4
+  collection: ^1.18.0
+  drift: ^2.21.0
+  drift_flutter: ^0.2.1
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.6
+  freezed_annotation: ^2.4.4
+  get_it: ^8.0.2
+  injectable: ^2.5.0
+  intl: ^0.19.0
+  json_annotation: ^4.9.0
+  path: ^1.9.0
+  path_provider: ^2.1.5
+  reactive_forms: ^17.0.1
+  rxdart: ^0.28.0
+  uuid: ^4.5.1
+
+dev_dependencies:
+  auto_route_generator: ^9.0.0
+  bloc_test: ^9.1.7
+  build_runner: ^2.4.13
+  drift_dev: ^2.21.2
+  flutter_test:
+    sdk: flutter
+  freezed: ^2.5.7
+  injectable_generator: ^2.6.2
+  json_serializable: ^6.8.0
+  mocktail: ^1.0.4
+  test: ^1.25.7
+  very_good_analysis: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/fixtures/routines.json
+    - assets/fixtures/smart_models.json
